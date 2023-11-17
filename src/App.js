@@ -50,7 +50,7 @@ function App() {
  }
  
   return (
-    <div className='body' style={{background:`url(${bg})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',transition:'background-image 0.75s ease-out',height:'100vh'}}>
+    <div className='body' style={{background:`url(${bg})`,transition:'background-image 0.75s ease-out',height:'100vh'}}>
     <div className='container'>
       <h1 style={{color:'darkgrey', fontSize:'40px'}}>The Ultimate Space Quiz</h1>
          {showScore?
